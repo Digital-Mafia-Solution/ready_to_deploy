@@ -11,7 +11,7 @@ app.use(
   })
 );
 
-app.get("/api/message", (req, res) => {
+app.get("/fsaApi/message", (req, res) => {
   res.json({ message: "Hello from Express backend on Render!" });
 });
 
